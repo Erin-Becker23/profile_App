@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:visibility="visible"
+    tools:context=".profileScreen">
+
+    <ImageView
+        android:id="@+id/pfp"
+        android:layout_width="127dp"
+        android:layout_height="258dp"
+        android:layout_marginBottom="5dp"
+        android:contentDescription="@string/pfp"
+        app:layout_constraintBottom_toTopOf="@+id/profile_scroll"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.547"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/pfp" />
+
+    <ImageView
+        android:id="@+id/nexus"
+        android:layout_width="125dp"
+        android:layout_height="213dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="24dp"
+        android:contentDescription="@string/nexus"
+        app:layout_constraintBottom_toTopOf="@+id/profile_scroll"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/nexus" />
+
+    <ImageView
+        android:id="@+id/ghost"
+        android:layout_width="99dp"
+        android:layout_height="167dp"
+        android:layout_marginTop="46dp"
+        android:layout_marginBottom="40dp"
+        android:contentDescription="@string/ghost"
+        app:layout_constraintBottom_toTopOf="@+id/profile_scroll"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ghost" />
+
+    <ScrollView
+        android:id="@+id/profile_scroll"
+        android:layout_width="356dp"
+        android:layout_height="479dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/profile_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="monospace"
+                android:text="@string/profile_app_text"
+                android:textColor="#000000" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

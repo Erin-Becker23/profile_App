@@ -1,0 +1,82 @@
+<resources>
+    <string name="app_name">profileApp</string>
+    <string name="profile_app_text">
+        \nHello, my name is Erin and I am currently 18
+        \nI have 4 dogs whose pictures I have included
+        \nOn the first page:
+        \nTop left: Jamba
+        \nBottom right: Mika
+        \nIn this page:
+        \nLeft: Nexus
+        \nRight: Ghost
+        \nThe middle picture is a picture of Lauren and I
+        \nI enjoy playing video games, especially open world games like Minecraft
+        \nI do martial arts during the week
+        \nI have a twin sister
+        \n
+        \njust to make sure the scroll works, here is the lyrics to Never Gonna Give You Up by rick Astley:
+        \n
+        \nWe\'re no strangers to love
+        \nyou know the rules, and so do I
+        \na full commitment\'s what I\'m thinking of
+        \nyou wouldn\'t get this from any other guy
+        \niiiiiii just wanna tell you how i\'m feeling
+        \ngotta make you understand
+        \nNever gonna give you up
+        \nNever gonna let you down
+        \nNever gonna run around and desert you
+        \nNever gonna make you cry
+        \nNever gonna say goodbye
+        \nNever gonna tell a lie and hurt you
+        \nWe\'ve known each other for so long
+        \nYour heart\'s been aching, but you\'re too shy to say it (say it)
+        \nInside, we both know what\'s been going on (going on)
+        \nWe know the game and we\'re gonna play it
+        \nAnd if you ask me how I\'m feeling
+        \nDon\'t tell me you\'re too blind to see
+        \nNever gonna give you up
+        \nNever gonna let you down
+        \nNever gonna run around and desert you
+        \nNever gonna make you cry
+        \nNever gonna say goodbye
+        \nNever gonna tell a lie and hurt you
+        \nNever gonna give you up
+        \nNever gonna let you down
+        \nNever gonna run around and desert you
+        \nNever gonna make you cry
+        \nNever gonna say goodbye
+        \nNever gonna tell a lie and hurt you
+        \nWe\'ve known each other for so long
+        \nYour heart\'s been aching, but you\'re too shy to say it (say it)
+        \nInside, we both know what\'s been going on (going on)
+        \nWe know the game and we\'re gonna play it
+        \niiiiiii just wanna tell you how i\'m feeling
+        \ngotta make you understand
+         \nNever gonna give you up
+        \nNever gonna let you down
+        \nNever gonna run around and desert you
+        \nNever gonna make you cry
+        \nNever gonna say goodbye
+        \nNever gonna tell a lie and hurt you
+         \nNever gonna give you up
+        \nNever gonna let you down
+        \nNever gonna run around and desert you
+        \nNever gonna make you cry
+        \nNever gonna say goodbye
+        \nNever gonna tell a lie and hurt you
+         \nNever gonna give you up
+        \nNever gonna let you down
+        \nNever gonna run around and desert you
+        \nNever gonna make you cry
+        \nNever gonna say goodbye
+        \nNever gonna tell a lie and hurt you
+
+
+    </string>
+    <string name="profile_app_info" />
+    <string name="profile_pic" />
+    <string name="ghost">ghost</string>
+    <string name="nexus">nexus</string>
+    <string name="pfp">pfp</string>
+
+</resources>
